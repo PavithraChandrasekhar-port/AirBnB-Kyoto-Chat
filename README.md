@@ -2,7 +2,23 @@
 
 A one-page chat prototype that plans a Kyoto weekend (11–13 Apr). It shows a thinking bubble, then three cards: a stay, an experience and a place to eat. If it can't build all three, it shows a calm error bubble with a Try again button.
 
-![Chat thread with the stay, experience and eat cards](docs/screenshot.jpg)
+## Screenshots (desktop)
+
+**1. Thinking.** Sending locks the input and shows pulsing dots in the reply bubble.
+
+![Thinking state](docs/1-thinking.jpg)
+
+**2. Cards.** Stay, experience and eat appear one after another, side by side.
+
+![Stay, experience and eat cards together](docs/2-cards.jpg)
+
+**3. Error.** With Force error on, the reply is a calm message with Try again inside it.
+
+![Error state](docs/3-error.jpg)
+
+**4. Try again clicked.** It turns Force error off, thinks, and brings the three cards back.
+
+![After Try again](docs/4-try-again.jpg)
 
 ## Run it
 
