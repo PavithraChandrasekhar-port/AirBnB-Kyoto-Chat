@@ -72,10 +72,18 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 - [x] ✅ Mobile: the cards are a swipeable carousel that snaps card to card (screenshots above).
 - [x] ✅ Light mode only.
 
+**Live link and scope**
+- [x] The live link https://air-bn-b-kyoto-chat.vercel.app/ opens the chat (checked by the project owner).
+- [x] ✅ No login: the app has no sign-in or accounts, and the local build opens straight into the chat.
+- [x] No login on the live link either (checked by the project owner).
+- [x] ✅ Mocked data: every card comes from the sample rows in `lib/mock.ts`. There are no API calls, and the listings, prices and availability are not real.
+- [x] ✅ No booking: Reserve only toggles the card to "Reserved ✓". No booking, payment or account is created and nothing is sent anywhere.
+
 **Code and repo**
 - [x] ✅ Next.js app router, React 19, strict TypeScript, Tailwind. `npm run typecheck` and `npm run build` pass.
-- [x] ✅ The project is lightweight (about 1.5 MB without `node_modules`).
+- [x] ✅ The project is lightweight (about 2 MB without `node_modules`, screenshots included).
 - [x] ✅ The README shows desktop screenshots of thinking, cards, error and Try again.
+- [x] ✅ The README shows mobile screenshots (iPhone 14 size, from the local build): thinking, cards, carousel swiped to the eat card, error and Try again.
 - [ ] The project is pushed to GitHub (no GitHub account was linked in the session).
 
 | | Stay | Experience | Eat |
