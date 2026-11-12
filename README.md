@@ -73,9 +73,9 @@ Notes:
 
 | # | Rule | Phone | Laptop |
 |---|---|---|---|
-| 10 | Share only the project's production `*.vercel.app` domain, the one listed under Domains in the Vercel dashboard. Never share a preview link (the long URL with a hash and a team or user name), because it asks for a Vercel login. | ☐ | ☐ |
-| 11 | Before sharing, open the production link in a private window and confirm it loads without a login. | ☐ | ☐ |
-| 12 | Wait until the newest deployment shows as finished in the Deployments tab before testing (every push to `main` redeploys production), so you don't test the old version. | ☐ | ☐ |
+| 10 | Share only the project's production `*.vercel.app` domain, the one listed under Domains in the Vercel dashboard. Never share a preview link (the long URL with a hash and a team or user name), because it asks for a Vercel login. | ✅ | ✅ |
+| 11 | Before sharing, open the production link in a private window and confirm it loads without a login. | ✅ | ✅|
+| 12 | Wait until the newest deployment shows as finished in the Deployments tab before testing (every push to `main` redeploys production), so you don't test the old version. | ✅ | ✅ |
 
 ## What it does
 
