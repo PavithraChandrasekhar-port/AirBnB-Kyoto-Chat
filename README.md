@@ -60,7 +60,7 @@ Marks: ✅ checked in a browser at that width on a local build (Chromium, not th
 | 5 | The forced failure shows a friendly message and a Try again button inside the assistant bubble. | ✅ | ✅ |
 | 6 | 0 blank-chat moments, including when the failure shows, when Try again is pressed, and after it. | ✅ | ✅ |
 | 7 | Pressing Try again brings the 3 cards back. | ✅ | ✅ |
-| 8 | The link opens with no setup, no sign-up and no login (no install, no configuration). | ☐ | ☐ |
+| 8 | The link opens with no setup, no sign-up and no login (no install, no configuration). | ✅ | ✅ |
 | 9 | A visible note on the page says the data is mocked and no booking happens. | ✅ | ✅ |
 
 Notes:
