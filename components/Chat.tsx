@@ -95,6 +95,9 @@ export default function Chat() {
           Force error
         </label>
       </header>
+      <p className="bg-amber-50 px-4 py-2 text-center text-xs leading-snug text-amber-900">
+        Prototype: all trips shown are mocked sample data. No booking happens.
+      </p>
 
       <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto p-4 md:px-8" aria-live="polite">
         {messages.map((m) => {
