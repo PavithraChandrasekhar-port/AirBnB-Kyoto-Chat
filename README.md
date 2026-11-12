@@ -26,7 +26,7 @@ On a phone-sized screen (iPhone 14, 390 px wide) the cards become a swipeable ca
 
 | 1. Thinking | 2. Cards | 3. Swiped to eat | 4. Error | 5. Try again clicked |
 |---|---|---|---|---|
-| <img src="docs/m1-thinking.jpg" width="170" alt="Mobile thinking state"> | <img src="docs/m2-cards.jpg" width="170" alt="Mobile cards, stay card first"> | <img src="docs/m3-swiped.jpg" width="170" alt="Mobile carousel swiped to the eat card"> | <img src="docs/m4-error.jpg" width="170" alt="Mobile error state"> | <img src="docs/m5-try-again.jpg" width="170" alt="Mobile after Try again"> |
+| <img src="docs/m1-thinking.jpeg" width="170" alt="Mobile thinking state"> | <img src="docs/m2-cards.jpeg" width="170" alt="Mobile cards, stay card first"> | <img src="docs/m3-swiped.jpeg" width="170" alt="Mobile carousel swiped to the eat card"> | <img src="docs/e width="170" alt="Mobile error state"> | <img src="docs/m5-try-again.jpeg" width="170" alt="Mobile after Try again"> |
 
 ## Run it
 
