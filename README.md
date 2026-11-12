@@ -20,6 +20,14 @@ A one-page chat prototype that plans a Kyoto weekend (11–13 Apr). It shows a t
 
 ![After Try again](docs/4-try-again.jpg)
 
+## Screenshots (mobile)
+
+On a phone-sized screen (iPhone 14, 390 px wide) the cards become a swipeable carousel that snaps card to card.
+
+| 1. Thinking | 2. Cards | 3. Swiped to eat | 4. Error | 5. Try again clicked |
+|---|---|---|---|---|
+| <img src="docs/m1-thinking.jpg" width="170" alt="Mobile thinking state"> | <img src="docs/m2-cards.jpg" width="170" alt="Mobile cards, stay card first"> | <img src="docs/m3-swiped.jpg" width="170" alt="Mobile carousel swiped to the eat card"> | <img src="docs/m4-error.jpg" width="170" alt="Mobile error state"> | <img src="docs/m5-try-again.jpg" width="170" alt="Mobile after Try again"> |
+
 ## Run it
 
 ```bash
@@ -61,7 +69,7 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 
 **Responsive and look**
 - [x] ✅ Desktop (md and up): the three cards sit side by side.
-- [x] ✅ Mobile: the cards are a swipeable carousel that snaps card to card.
+- [x] ✅ Mobile: the cards are a swipeable carousel that snaps card to card (screenshots above).
 - [x] ✅ Light mode only.
 
 **Code and repo**
