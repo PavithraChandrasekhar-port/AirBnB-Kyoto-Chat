@@ -26,7 +26,7 @@ On a phone-sized screen (iPhone 14, 390 px wide) the cards become a swipeable ca
 
 | 1. Thinking | 2. Cards | 3. Swiped to eat | 4. Error | 5. Try again clicked |
 |---|---|---|---|---|
-| <img src="docs/m1-thinking.jpg" width="170" alt="Mobile thinking state"> | <img src="docs/m2-cards.jpg" width="170" alt="Mobile cards, stay card first"> | <img src="docs/m3-swiped.jpg" width="170" alt="Mobile carousel swiped to the eat card"> | <img src="docs/m4-error.jpg" width="170" alt="Mobile error state"> | <img src="docs/m5-try-again.jpg" width="170" alt="Mobile after Try again"> |
+| <img src="docs/m1-thinking.jpeg" width="170" alt="Mobile thinking state"> | <img src="docs/m2-cards.jpeg" width="170" alt="Mobile cards, stay card first"> | <img src="docs/m3-swiped.jpeg" width="170" alt="Mobile carousel swiped to the eat card"> | <img src="docs/m4-error.jpeg" width="170" alt="Mobile error state"> | <img src="docs/m5-try-again.jpeg" width="170" alt="Mobile after Try again"> |
 
 ## Run it
 
@@ -65,7 +65,7 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 - [x] ✅ The error bubble is a calm plain message with no icon and no red, with a Try again button inside it.
 - [x] ✅ Try again turns Force error off, shows the dots, then shows the three cards.
 - [x] ✅ The error bubble and the cards never show together.
-- [x] ✅ `?forceError=1` also forces the error (the spec mentions it; the switch is the only trigger so far).
+- [] `?forceError=1` also forces the error (this isn't required and the switch is the only trigger so far). 
 
 **Responsive and look**
 - [x] ✅ Desktop (md and up): the three cards sit side by side.
