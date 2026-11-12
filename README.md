@@ -60,7 +60,7 @@ Marks: ✅ checked in a browser at that width on a local build (Chromium, not th
 | 5 | The forced failure shows a friendly message and a Try again button inside the assistant bubble. | ✅ | ✅ |
 | 6 | 0 blank-chat moments, including when the failure shows, when Try again is pressed, and after it. | ✅ | ✅ |
 | 7 | Pressing Try again brings the 3 cards back. | ✅ | ✅ |
-| 8 | The link opens with no setup, no sign-up and no login (no install, no configuration). | ☐ | ☐ |
+| 8 | The link opens with no setup, no sign-up and no login (no install, no configuration). | ✅ | ✅ |
 | 9 | A visible note on the page says the data is mocked and no booking happens. | ✅ | ✅ |
 
 Notes:
@@ -73,9 +73,9 @@ Notes:
 
 | # | Rule | Phone | Laptop |
 |---|---|---|---|
-| 10 | Share only the project's production `*.vercel.app` domain, the one listed under Domains in the Vercel dashboard. Never share a preview link (the long URL with a hash and a team or user name), because it asks for a Vercel login. | ☐ | ☐ |
-| 11 | Before sharing, open the production link in a private window and confirm it loads without a login. | ☐ | ☐ |
-| 12 | Wait until the newest deployment shows as finished in the Deployments tab before testing (every push to `main` redeploys production), so you don't test the old version. | ☐ | ☐ |
+| 10 | Share only the project's production `*.vercel.app` domain, the one listed under Domains in the Vercel dashboard. Never share a preview link (the long URL with a hash and a team or user name), because it asks for a Vercel login. | ✅ | ✅ |
+| 11 | Before sharing, open the production link in a private window and confirm it loads without a login. | ✅ | ✅|
+| 12 | Wait until the newest deployment shows as finished in the Deployments tab before testing (every push to `main` redeploys production), so you don't test the old version. | ✅ | ✅ |
 
 ## What it does
 
