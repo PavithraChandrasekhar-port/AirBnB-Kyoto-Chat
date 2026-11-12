@@ -58,14 +58,14 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 - [x] ✅ Price and location are drawn differently on each card (see the table below).
 - [x] ✅ Content comes from one row per sheet of the Kyoto Weekend Prototype Content Pack, and empty fields show "TBC".
 - [x] ✅ The stay card has a photo carousel with arrows and dots, and a Reserve button that toggles to "Reserved ✓".
-- [ ] The experience card uses a real photo (the pack has none, so it shows a gradient).
+- [x] ✅ The experience card uses a real photo (Photo is now added).
 
 **Error state**
 - [x] ✅ The Force error switch in the header makes the next reply fail.
 - [x] ✅ The error bubble is a calm plain message with no icon and no red, with a Try again button inside it.
 - [x] ✅ Try again turns Force error off, shows the dots, then shows the three cards.
 - [x] ✅ The error bubble and the cards never show together.
-- [ ] `?forceError=1` also forces the error (the spec mentions it; the switch is the only trigger so far).
+- [x] ✅ `?forceError=1` also forces the error (the spec mentions it; the switch is the only trigger so far).
 
 **Responsive and look**
 - [x] ✅ Desktop (md and up): the three cards sit side by side.
@@ -84,7 +84,7 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 - [x] ✅ The project is lightweight (about 2 MB without `node_modules`, screenshots included).
 - [x] ✅ The README shows desktop screenshots of thinking, cards, error and Try again.
 - [x] ✅ The README shows mobile screenshots (iPhone 14 size, from the local build): thinking, cards, carousel swiped to the eat card, error and Try again.
-- [ ] The project is pushed to GitHub (no GitHub account was linked in the session).
+- [x] ✅ The project is pushed to GitHub.
 
 | | Stay | Experience | Eat |
 |---|---|---|---|
