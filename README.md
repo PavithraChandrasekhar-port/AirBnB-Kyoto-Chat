@@ -65,7 +65,7 @@ Tick each box when the check passes. Items marked ✅ were checked in a browser 
 - [x] ✅ The error bubble is a calm plain message with no icon and no red, with a Try again button inside it.
 - [x] ✅ Try again turns Force error off, shows the dots, then shows the three cards.
 - [x] ✅ The error bubble and the cards never show together.
-- [x] ✅ `?forceError=1` also forces the error (the spec mentions it; the switch is the only trigger so far).
+- [] `?forceError=1` also forces the error (this isn't required and the switch is the only trigger so far). 
 
 **Responsive and look**
 - [x] ✅ Desktop (md and up): the three cards sit side by side.
