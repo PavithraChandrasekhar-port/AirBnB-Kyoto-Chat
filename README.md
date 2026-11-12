@@ -29,6 +29,52 @@ npm run dev
 
 Open http://localhost:3000. Other scripts: `npm run build`, `npm run typecheck`.
 
+## Pass checklist
+
+Tick each box when the check passes. Items marked ✅ were checked in a browser while building; the rest need a person or an account I didn't have.
+
+**Page**
+- [x] ✅ One page with a header, a scrolling thread and a text box with a Send button.
+- [x] ✅ The thread opens with the user's Kyoto weekend message already sent.
+
+**Thinking state**
+- [x] ✅ Sending a message locks the text box and the Send button.
+- [x] ✅ Pulsing dots show in the reply bubble before any cards appear.
+- [x] ✅ The dots are replaced by the result, never stacked with it.
+
+**Cards**
+- [x] ✅ Exactly three cards appear: stay (11–13 Apr), experience, then eat, in that order.
+- [x] ✅ The cards fade in one after another (0.1 s, 0.45 s, 0.8 s).
+- [x] ✅ Each card has its own layout and accent colour: coral stay, teal experience, amber eat.
+- [x] ✅ All three share one design system: same radius, shadow, centred text and label.
+- [x] ✅ Price and location are drawn differently on each card (see the table below).
+- [x] ✅ Content comes from one row per sheet of the Kyoto Weekend Prototype Content Pack, and empty fields show "TBC".
+- [x] ✅ The stay card has a photo carousel with arrows and dots, and a Reserve button that toggles to "Reserved ✓".
+- [ ] The experience card uses a real photo (the pack has none, so it shows a gradient).
+
+**Error state**
+- [x] ✅ The Force error switch in the header makes the next reply fail.
+- [x] ✅ The error bubble is a calm plain message with no icon and no red, with a Try again button inside it.
+- [x] ✅ Try again turns Force error off, shows the dots, then shows the three cards.
+- [x] ✅ The error bubble and the cards never show together.
+- [ ] `?forceError=1` also forces the error (the spec mentions it; the switch is the only trigger so far).
+
+**Responsive and look**
+- [x] ✅ Desktop (md and up): the three cards sit side by side.
+- [x] ✅ Mobile: the cards are a swipeable carousel that snaps card to card.
+- [x] ✅ Light mode only.
+
+**Code and repo**
+- [x] ✅ Next.js app router, React 19, strict TypeScript, Tailwind. `npm run typecheck` and `npm run build` pass.
+- [x] ✅ The project is lightweight (about 1.5 MB without `node_modules`).
+- [x] ✅ The README shows desktop screenshots of thinking, cards, error and Try again.
+- [ ] The project is pushed to GitHub (no GitHub account was linked in the session).
+
+| | Stay | Experience | Eat |
+|---|---|---|---|
+| Price | Large coral total, nightly price beside it | Filled teal pill, "$58 per guest" | `$` scale with the level filled, plus "~$34 for 2" |
+| Location | Neighbourhood in the subtitle | Meeting point in a pale teal box | Amber walk-time chip |
+
 ## What it does
 
 - Sending a message locks the input and shows pulsing dots in the reply bubble before any cards appear.
